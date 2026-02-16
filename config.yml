@@ -1,0 +1,8 @@
+cameras:
+  - name: room_1
+    url: rtsp://admin:pass@192.168.1.10:554/stream
+  - name: room_2
+    url: rtsp://admin:pass@192.168.1.11:554/stream
+
+outputFolder:
+  /camera-recording
