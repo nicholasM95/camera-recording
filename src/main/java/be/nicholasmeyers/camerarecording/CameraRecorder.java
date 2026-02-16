@@ -23,6 +23,7 @@ public class CameraRecorder {
 
                     ProcessBuilder pb = new ProcessBuilder(
                             "ffmpeg",
+                            "-loglevel", "error",
                             "-rtsp_transport", "tcp",
                             "-i", rtspUrl,
                             "-c", "copy",           // no re-encoding, fast
